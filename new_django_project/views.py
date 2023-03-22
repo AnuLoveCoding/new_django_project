@@ -10,3 +10,6 @@ def course(request):
 def mobile(request):
     return HttpResponse("<u><b>My mobile number is : 8595848097</b></u>")
 
+def courseDeatails(request, courseid):
+    return HttpResponse(courseid)
+

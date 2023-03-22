@@ -23,5 +23,6 @@ urlpatterns = [
     path('about-us/',views.aboutus),
     path('course/',views.course),
     path('mobile/',views.mobile),
+    path('course/<int:courseid>',views.courseDeatails),    
 ]
 
